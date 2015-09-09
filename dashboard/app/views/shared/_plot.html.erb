@@ -1,0 +1,47 @@
+<script type="text/javascript">
+$(function () {
+    $('#container<%= @next_plot.id %>').highcharts({
+        title: {
+            text: '<%= @next_plot.name %>',
+            x: -20 //center
+        },
+            xAxis: {
+                type: 'datetime'
+            },
+            yAxis: {
+                title: {
+                    text: 'Value'
+                }
+            },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            borderWidth: 0
+        },
+        series: [
+<% first = true %>
+<% @next_plot.indicators.each{ |i| %>
+  <% if first %>
+    <% first = false %>
+  <% else %>
+    ,
+  <% end %>
+  {
+    name: '<%= i.name %>',
+    data: [
+      <% i.datapoints.each{ |dp| %>
+	  <% if Date.today - dp.day <= @next_plot.days_duration %>
+        [Date.UTC(<%= dp.day.year%>,<%= dp.day.mon - 1 %>,<%= dp.day.mday %>),<%= dp.value %>],
+	  <% end %>
+      <% } %>
+    ]
+  }
+<% } %>
+
+        ]
+    });
+});
+</script>
+
+<div id="container<%= @next_plot.id %>" style="width: 800px; height: 400px; margin: 0 auto"></div>

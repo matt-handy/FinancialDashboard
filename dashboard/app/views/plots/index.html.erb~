@@ -1,0 +1,14 @@
+<h1>Listing Plots</h1>
+<table>
+  <tr>
+    <th>Name</th>
+    <th colspan="2"></th>
+  </tr>
+  <% @plots.each do |plot| %>
+    <tr>
+      <td><%= plot.name %></td>
+      <td><%= link_to 'Show', plot_path(plot) %></td>
+      <td><%= link_to 'Destroy', plot_path(plot), method: :delete, data: {confirm: 'Are you sure?'} %></td>
+    </tr>
+  <% end %>
+</table>

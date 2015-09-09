@@ -1,0 +1,16 @@
+<h1>Listing Indicators</h1>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>URI</th>
+    <th colspan="2"></th>
+  </tr>
+  <% @indicators.each do |indicator| %>
+    <tr>
+      <td><%= indicator.name %></td>
+      <td><%= indicator.uri %></td>
+      <td><%= link_to 'Show', indicator_path(indicator) %></td>
+      <td><%= link_to 'Destroy', indicator_path(indicator), method: :delete, data: {confirm: 'Are you sure?'} %></td>
+    </tr>
+  <% end %>
+</table>

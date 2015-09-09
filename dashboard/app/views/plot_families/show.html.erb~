@@ -1,0 +1,7 @@
+<p>
+<strong>Name: </strong>
+<%= @plot_family.name %>
+</p>
+<% @plot_family.plots.each { |pf| %>
+<%= pf.name %>
+<% } %>

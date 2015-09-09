@@ -1,0 +1,20 @@
+<table>
+  <tr>
+<% end_row = false %>  
+<% @plot_family.plots.each { |p| %>
+  <% @next_plot = p %>
+  <td>
+  <%= render "shared/plot" %>
+  </td>
+  <% if end_row %>
+    </tr>
+    <tr>
+  <% else %>
+    <% end_row = true %>
+  <% end %>
+<% } %>
+
+<% if not end_row %>
+  </tr>
+<% end %>
+</table>

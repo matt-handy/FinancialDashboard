@@ -1,0 +1,2 @@
+class PlotFamily < ActiveRecord::Base
+end

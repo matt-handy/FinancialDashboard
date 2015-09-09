@@ -1,0 +1,15 @@
+<h1>Listing Plot Families</h1>
+<table>
+  <tr>
+    <th>Name</th>
+    <th colspan="3"></th>
+  </tr>
+  <% @plot_families.each do |plot| %>
+    <tr>
+      <td><%= plot.name %></td>
+      <td><%= link_to 'Show', plot_families_path(plot) %></td>
+      <td><%= link_to 'Edit', edit_plot_family_path(plot) %></td>
+      <td><%= link_to 'Destroy', plot_families_path(plot), method: :delete, data: {confirm: 'Are you sure?'} %></td>
+    </tr>
+  <% end %>
+</table>

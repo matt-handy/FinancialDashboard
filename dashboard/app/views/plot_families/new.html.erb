@@ -1,0 +1,11 @@
+<h1>New Plot Family!</h1>
+<%= form_for :plot_family, url: plot_families_path do |p| %>
+<%= p.label :name %><br>
+<%= p.text_field :name %><br><br>
+<%= p.label :refresh_int_mins %><br>
+<%= p.text_field :refresh_int_mins %><br><br>
+<%= select_tag "plots",
+	options_from_collection_for_select(Plot.all, 'id', 'name'),
+	{ :multiple => true, :size => 10} %>
+<%= p.submit %>
+<% end %>

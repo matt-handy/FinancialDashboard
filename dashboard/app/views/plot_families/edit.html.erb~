@@ -1,0 +1,17 @@
+<h1>Edit Plot Family</h1>
+<%= form_for(@plot_family) do |p| %>
+<%= p.label :name %><br>
+<%= p.text_field :name %><br><br>
+<%= p.label :refresh_int_mins %><br>
+<%= p.text_field :refresh_int_mins %><br><br>
+
+<% curr_inds = [] %>
+<% @plot_family.plot_to_families.each { |i| %>
+  <% curr_inds << i.id %>
+<% } %>
+
+<%= select_tag "plots",
+	options_from_collection_for_select(Plot.all, 'id', 'name', curr_inds),
+	{ :multiple => true, :size => 10} %>
+<%= p.submit %>
+<% end %>

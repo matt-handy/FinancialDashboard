@@ -1,0 +1,13 @@
+<h1>Listing Indicators</h1>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>URI</th>
+  </tr>
+  <% @indicators.each do |indicator| %>
+    <tr>
+      <td><%= indicator.name %></td>
+      <td><%= indicator.uri %></td>
+    </tr>
+  <% end %>
+</table>

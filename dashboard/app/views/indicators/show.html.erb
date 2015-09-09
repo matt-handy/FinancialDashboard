@@ -1,0 +1,11 @@
+<p>
+<strong>Name: </strong>
+<%= @indicator.name %>
+</p>
+<p>
+<strong>URI: </strong>
+<%= @indicator.uri %>
+</p>
+<% @indicator.datapoints.each { |dp| %>
+<%= dp.day %>:<%= dp.value %><br>
+<% } %>

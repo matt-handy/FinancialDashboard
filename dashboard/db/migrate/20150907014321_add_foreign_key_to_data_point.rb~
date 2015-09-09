@@ -1,0 +1,6 @@
+class AddForeignKeyToDataPoint < ActiveRecord::Migration
+  def change
+    add_column :customer_id
+    add_index :datapoints, :customer_id
+  end
+end

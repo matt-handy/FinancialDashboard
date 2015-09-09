@@ -1,0 +1,12 @@
+<h1>Edit plot</h1>
+<%= form_for(@plot) do |p| %>
+<%= p.label :name %><br>
+<%= p.text_field :name %><br><br>
+<%= p.label :days_duration %><br>
+<%= p.text_field :days_duration %><br><br>
+<%= select_tag "indicators",
+	options_from_collection_for_select(Indicator.all, 'id', 'name', @plot.indicators),
+	{ :multiple => true, :size => 10} %>
+<%= p.submit %>
+<% end %>
+
