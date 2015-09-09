@@ -1,2 +1,11 @@
-<h1>Main#hud</h1>
-<p>Find me in app/views/main/hud.html.erb</p>
+<meta http-equiv="refresh" content="300" />
+<h1>Behold, ye dashboard
+</h1>
+<% if @plot_family %>
+<%= render "shared/plot_family" %>
+<% end %>
+<br><br>
+Edit:<br>
+<%= link_to 'Manage Plots Families', plot_families_path %><br>
+<%= link_to 'Manage Plot', plots_path %><br>
+<%= link_to 'Manage Indicators', indicators_path %><br>
