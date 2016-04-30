@@ -30,7 +30,7 @@ $(function () {
   {
     name: '<%= i.name %>',
     data: [
-      <% i.datapoints.each{ |dp| %>
+      <% i.datapoints.order(:day).each{ |dp| %>
 	  <% if Date.today - dp.day <= @next_plot.days_duration %>
         [Date.UTC(<%= dp.day.year%>,<%= dp.day.mon - 1 %>,<%= dp.day.mday %>),<%= dp.value %>],
 	  <% end %>
