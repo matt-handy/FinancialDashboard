@@ -45,3 +45,7 @@ $(function () {
 </script>
 
 <div id="container<%= @next_plot.id %>" style="width: 800px; height: 400px; margin: 0 auto"></div>
+Links to Google Finance:
+<% @next_plot.indicators.each{ |i| %>
+  <a href="https://www.google.com/finance?cid=<%= i.uri %>"><%= i.name %></a>
+<% } %>

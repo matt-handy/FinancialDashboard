@@ -4,7 +4,9 @@ namespace :indicators do
   desc "TODO"
   task load: :environment do
     Indicator.all.each { |i|
-      url = URI.parse(i.uri)
+      #url = URI.parse(i.uri)
+	  url = URI.parse("http://www.google.com/finance/historical?cid=#{i.uri}&startdate=Sep+10%2C+1975&num=25000&output=csv")
+	  
       open(url) do |http|
         response = http.read
         lines = response.inspect.to_s.split("\\n")
@@ -34,7 +36,8 @@ namespace :indicators do
   task reload: :environment do
     Indicator.all.each { |i|
       i.datapoints.destroy_all
-      url = URI.parse(i.uri)
+      #url = URI.parse(i.uri)
+	  url = URI.parse("http://www.google.com/finance/historical?cid=#{i.uri}&startdate=Sep+10%2C+1975&num=25000&output=csv")
       open(url) do |http|
         response = http.read
         lines = response.inspect.to_s.split("\\n")
@@ -53,5 +56,5 @@ namespace :indicators do
       end
     }
   end
-
+  
 end
