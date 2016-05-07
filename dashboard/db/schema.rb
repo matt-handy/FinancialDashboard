@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150907235216) do
+ActiveRecord::Schema.define(version: 20160507040754) do
 
   create_table "datapoints", force: :cascade do |t|
     t.date     "day"
@@ -49,6 +49,7 @@ ActiveRecord::Schema.define(version: 20150907235216) do
     t.integer  "days_duration"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
+    t.string   "dataset"
   end
 
   create_table "series", force: :cascade do |t|

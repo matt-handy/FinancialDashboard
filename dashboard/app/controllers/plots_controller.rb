@@ -12,6 +12,7 @@ class PlotsController < ApplicationController
       s = Series.new(:indicator_id => i.to_i, :plot_id => @plot.id)
       s.save
     }
+	@plot.regenerate_series
     redirect_to @plot
   end
 
@@ -33,7 +34,7 @@ class PlotsController < ApplicationController
       s = Series.new(:indicator_id => i.to_i, :plot_id => @plot.id)
       s.save
     }
-
+	@plot.regenerate_series
     redirect_to @plot
   end
 

@@ -20,25 +20,8 @@ $(function () {
             borderWidth: 0
         },
         series: [
-<% first = true %>
-<% @next_plot.indicators.each{ |i| %>
-  <% if first %>
-    <% first = false %>
-  <% else %>
-    ,
-  <% end %>
-  {
-    name: '<%= i.name %>',
-    data: [
-      <% i.datapoints.order(:day).each{ |dp| %>
-	  <% if Date.today - dp.day <= @next_plot.days_duration %>
-        [Date.UTC(<%= dp.day.year%>,<%= dp.day.mon - 1 %>,<%= dp.day.mday %>),<%= dp.value %>],
-	  <% end %>
-      <% } %>
-    ]
-  }
-<% } %>
 
+<%= @next_plot.dataset.html_safe %>
         ]
     });
 });

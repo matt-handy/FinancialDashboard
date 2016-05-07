@@ -31,6 +31,8 @@ namespace :indicators do
 		end
       end
     }
+	
+	Plot.all.each { |p| p.regenerate_series }
   end
   
   task reload: :environment do
@@ -55,6 +57,13 @@ namespace :indicators do
 	    }  
       end
     }
+	
+	Plot.all.each { |p| p.regenerate_series }
+  end
+  
+  task backup: :environment do
+    Plot.all.each { |p| p.regenerate_series }
+	#Plot.all.each { |p| puts p.dataset }
   end
   
 end
