@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160507040754) do
+ActiveRecord::Schema.define(version: 20160509030156) do
 
   create_table "datapoints", force: :cascade do |t|
     t.date     "day"
@@ -22,6 +22,14 @@ ActiveRecord::Schema.define(version: 20160507040754) do
   end
 
   add_index "datapoints", ["indicator_id"], name: "index_datapoints_on_indicator_id"
+
+  create_table "delta_samples", force: :cascade do |t|
+    t.float    "value"
+    t.datetime "created_at",              null: false
+    t.datetime "updated_at",              null: false
+    t.integer  "indicator_id"
+    t.integer  "price_delta_category_id"
+  end
 
   create_table "indicators", force: :cascade do |t|
     t.string   "name"
@@ -50,6 +58,14 @@ ActiveRecord::Schema.define(version: 20160507040754) do
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
     t.string   "dataset"
+  end
+
+  create_table "price_delta_categories", force: :cascade do |t|
+    t.integer  "length"
+    t.integer  "delta"
+    t.string   "title"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "series", force: :cascade do |t|

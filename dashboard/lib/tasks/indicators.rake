@@ -33,6 +33,7 @@ namespace :indicators do
     }
 	
 	Plot.all.each { |p| p.regenerate_series }
+	PriceDeltaCategory.regenerate_all
   end
   
   task reload: :environment do
@@ -59,11 +60,24 @@ namespace :indicators do
     }
 	
 	Plot.all.each { |p| p.regenerate_series }
+	PriceDeltaCategory.regenerate_all
   end
   
   task backup: :environment do
-    Plot.all.each { |p| p.regenerate_series }
-	#Plot.all.each { |p| puts p.dataset }
+    PriceDeltaCategory.destroy_all
+    #40% in 12 weeks
+	catThreeMonths = PriceDeltaCategory.new(:length => 60, :title => "12 Weeks, 40%", :delta => 40)
+	catThreeMonths.save
+	
+	#25% in 8 weeks
+	catTwoMonths = PriceDeltaCategory.new(:length => 40, :title => "8 Weeks, 25%", :delta => 25)
+	catTwoMonths.save
+	
+	#25% in 8 weeks
+	catOneMonths = PriceDeltaCategory.new(:length => 20, :title => "4 Weeks, 15%", :delta => 15)
+	catOneMonths.save
+	
+	PriceDeltaCategory.regenerate_all
   end
   
 end

@@ -1,6 +1,22 @@
 <meta http-equiv="refresh" content="<%= (@plot_family.refresh_int_mins * 60).to_i %>" />
 <h1>Behold, ye dashboard
 </h1>
+
+<h3>Ye largest price changes</h3>
+<% PriceDeltaCategory.all.each{ |pdc| %>
+<b><%= pdc.title %></b><br>
+	<% pdc.delta_samples.each{ |ds| %>
+		<% if ds.value > 0 %> 
+			<font color='green'>
+		<% else %>
+			<font color='red'>
+		<% end %>
+		<a href="https://www.google.com/finance?cid=<%= ds.indicator.uri %>"><%= ds.indicator.name %></a>: <%= (ds.value * 100).round(3) %>%</font>
+	<% } %>
+<br>
+<% } %>
+<br>
+
 <% if @plot_family %>
 <%= render "shared/plot_family" %>
 <% end %>
