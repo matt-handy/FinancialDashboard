@@ -64,7 +64,16 @@ namespace :indicators do
   end
   
   task backup: :environment do
-    PriceDeltaCategory.destroy_all
+    File.open(File.join("db","plot_families.xml"), "w") { |file| file.write PlotFamily.all.to_xml() }
+	File.open(File.join("db","indicators.xml"), "w") { |file| file.write Indicator.all.to_xml() }
+	File.open(File.join("db","plots.xml"), "w") { |file| file.write Plot.all.to_xml() }
+	File.open(File.join("db","plot_to_families.xml"), "w") { |file| file.write PlotToFamily.all.to_xml() }
+	File.open(File.join("db","series.xml"), "w") { |file| file.write Series.all.to_xml() }
+  end
+  
+  task rebuild: :environment do
+=begin
+	PriceDeltaCategory.destroy_all
     #40% in 12 weeks
 	catThreeMonths = PriceDeltaCategory.new(:length => 60, :title => "12 Weeks, 40%", :delta => 40)
 	catThreeMonths.save
@@ -78,6 +87,12 @@ namespace :indicators do
 	catOneMonths.save
 	
 	PriceDeltaCategory.regenerate_all
+=end	
+    PlotFamily.d_initialize("db/plot_families.xml")
+	Indicator.d_initialize("db/indicators.xml")
+	Plot.d_initialize("db/plots.xml")
+	PlotToFamily.d_initialize("db/plot_to_families.xml")
+	Series.d_initialize("db/series.xml")
   end
   
 end

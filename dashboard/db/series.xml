@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<series type="array">
+  <series>
+    <id type="integer">2</id>
+    <plot-id type="integer">1</plot-id>
+    <indicator-id type="integer">1</indicator-id>
+    <created-at type="dateTime">2015-09-09T22:32:01Z</created-at>
+    <updated-at type="dateTime">2015-09-09T22:32:01Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">3</id>
+    <plot-id type="integer">1</plot-id>
+    <indicator-id type="integer">2</indicator-id>
+    <created-at type="dateTime">2015-09-09T22:32:01Z</created-at>
+    <updated-at type="dateTime">2015-09-09T22:32:01Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">12</id>
+    <plot-id type="integer">4</plot-id>
+    <indicator-id type="integer">9</indicator-id>
+    <created-at type="dateTime">2015-09-10T03:54:12Z</created-at>
+    <updated-at type="dateTime">2015-09-10T03:54:12Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">16</id>
+    <plot-id type="integer">6</plot-id>
+    <indicator-id type="integer">13</indicator-id>
+    <created-at type="dateTime">2015-09-15T03:46:51Z</created-at>
+    <updated-at type="dateTime">2015-09-15T03:46:51Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">17</id>
+    <plot-id type="integer">5</plot-id>
+    <indicator-id type="integer">10</indicator-id>
+    <created-at type="dateTime">2015-10-06T23:23:29Z</created-at>
+    <updated-at type="dateTime">2015-10-06T23:23:29Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">18</id>
+    <plot-id type="integer">5</plot-id>
+    <indicator-id type="integer">11</indicator-id>
+    <created-at type="dateTime">2015-10-06T23:23:29Z</created-at>
+    <updated-at type="dateTime">2015-10-06T23:23:29Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">19</id>
+    <plot-id type="integer">5</plot-id>
+    <indicator-id type="integer">12</indicator-id>
+    <created-at type="dateTime">2015-10-06T23:23:29Z</created-at>
+    <updated-at type="dateTime">2015-10-06T23:23:29Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">20</id>
+    <plot-id type="integer">5</plot-id>
+    <indicator-id type="integer">14</indicator-id>
+    <created-at type="dateTime">2015-10-06T23:23:30Z</created-at>
+    <updated-at type="dateTime">2015-10-06T23:23:30Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">28</id>
+    <plot-id type="integer">7</plot-id>
+    <indicator-id type="integer">15</indicator-id>
+    <created-at type="dateTime">2016-01-16T02:37:09Z</created-at>
+    <updated-at type="dateTime">2016-01-16T02:37:09Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">29</id>
+    <plot-id type="integer">7</plot-id>
+    <indicator-id type="integer">17</indicator-id>
+    <created-at type="dateTime">2016-01-16T02:37:09Z</created-at>
+    <updated-at type="dateTime">2016-01-16T02:37:09Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">30</id>
+    <plot-id type="integer">7</plot-id>
+    <indicator-id type="integer">18</indicator-id>
+    <created-at type="dateTime">2016-01-16T02:37:09Z</created-at>
+    <updated-at type="dateTime">2016-01-16T02:37:09Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">39</id>
+    <plot-id type="integer">9</plot-id>
+    <indicator-id type="integer">21</indicator-id>
+    <created-at type="dateTime">2016-04-28T02:19:43Z</created-at>
+    <updated-at type="dateTime">2016-04-28T02:19:43Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">40</id>
+    <plot-id type="integer">9</plot-id>
+    <indicator-id type="integer">23</indicator-id>
+    <created-at type="dateTime">2016-04-28T02:19:43Z</created-at>
+    <updated-at type="dateTime">2016-04-28T02:19:43Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">41</id>
+    <plot-id type="integer">10</plot-id>
+    <indicator-id type="integer">24</indicator-id>
+    <created-at type="dateTime">2016-04-28T02:25:57Z</created-at>
+    <updated-at type="dateTime">2016-04-28T02:25:57Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">42</id>
+    <plot-id type="integer">10</plot-id>
+    <indicator-id type="integer">25</indicator-id>
+    <created-at type="dateTime">2016-04-28T02:25:57Z</created-at>
+    <updated-at type="dateTime">2016-04-28T02:25:57Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">43</id>
+    <plot-id type="integer">10</plot-id>
+    <indicator-id type="integer">27</indicator-id>
+    <created-at type="dateTime">2016-04-28T02:25:57Z</created-at>
+    <updated-at type="dateTime">2016-04-28T02:25:57Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">44</id>
+    <plot-id type="integer">11</plot-id>
+    <indicator-id type="integer">26</indicator-id>
+    <created-at type="dateTime">2016-04-28T02:26:16Z</created-at>
+    <updated-at type="dateTime">2016-04-28T02:26:16Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">45</id>
+    <plot-id type="integer">3</plot-id>
+    <indicator-id type="integer">7</indicator-id>
+    <created-at type="dateTime">2016-04-28T02:30:42Z</created-at>
+    <updated-at type="dateTime">2016-04-28T02:30:42Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">46</id>
+    <plot-id type="integer">3</plot-id>
+    <indicator-id type="integer">8</indicator-id>
+    <created-at type="dateTime">2016-04-28T02:30:42Z</created-at>
+    <updated-at type="dateTime">2016-04-28T02:30:42Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">47</id>
+    <plot-id type="integer">3</plot-id>
+    <indicator-id type="integer">28</indicator-id>
+    <created-at type="dateTime">2016-04-28T02:30:43Z</created-at>
+    <updated-at type="dateTime">2016-04-28T02:30:43Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">48</id>
+    <plot-id type="integer">3</plot-id>
+    <indicator-id type="integer">29</indicator-id>
+    <created-at type="dateTime">2016-04-28T02:30:43Z</created-at>
+    <updated-at type="dateTime">2016-04-28T02:30:43Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">49</id>
+    <plot-id type="integer">3</plot-id>
+    <indicator-id type="integer">30</indicator-id>
+    <created-at type="dateTime">2016-04-28T02:30:43Z</created-at>
+    <updated-at type="dateTime">2016-04-28T02:30:43Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">50</id>
+    <plot-id type="integer">3</plot-id>
+    <indicator-id type="integer">31</indicator-id>
+    <created-at type="dateTime">2016-04-28T02:30:43Z</created-at>
+    <updated-at type="dateTime">2016-04-28T02:30:43Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">61</id>
+    <plot-id type="integer">13</plot-id>
+    <indicator-id type="integer">37</indicator-id>
+    <created-at type="dateTime">2016-04-30T02:07:52Z</created-at>
+    <updated-at type="dateTime">2016-04-30T02:07:52Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">62</id>
+    <plot-id type="integer">13</plot-id>
+    <indicator-id type="integer">38</indicator-id>
+    <created-at type="dateTime">2016-04-30T02:07:52Z</created-at>
+    <updated-at type="dateTime">2016-04-30T02:07:52Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">63</id>
+    <plot-id type="integer">12</plot-id>
+    <indicator-id type="integer">32</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:08:00Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:08:00Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">64</id>
+    <plot-id type="integer">12</plot-id>
+    <indicator-id type="integer">33</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:08:00Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:08:00Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">65</id>
+    <plot-id type="integer">12</plot-id>
+    <indicator-id type="integer">34</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:08:00Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:08:00Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">66</id>
+    <plot-id type="integer">12</plot-id>
+    <indicator-id type="integer">39</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:08:00Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:08:00Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">67</id>
+    <plot-id type="integer">14</plot-id>
+    <indicator-id type="integer">40</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:08:17Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:08:17Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">68</id>
+    <plot-id type="integer">14</plot-id>
+    <indicator-id type="integer">41</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:08:17Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:08:17Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">69</id>
+    <plot-id type="integer">14</plot-id>
+    <indicator-id type="integer">42</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:08:17Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:08:17Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">70</id>
+    <plot-id type="integer">14</plot-id>
+    <indicator-id type="integer">43</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:08:17Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:08:17Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">71</id>
+    <plot-id type="integer">14</plot-id>
+    <indicator-id type="integer">44</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:08:17Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:08:17Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">72</id>
+    <plot-id type="integer">15</plot-id>
+    <indicator-id type="integer">20</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:10:52Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:10:52Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">73</id>
+    <plot-id type="integer">15</plot-id>
+    <indicator-id type="integer">45</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:10:52Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:10:52Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">74</id>
+    <plot-id type="integer">16</plot-id>
+    <indicator-id type="integer">46</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:13:22Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:13:22Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">75</id>
+    <plot-id type="integer">16</plot-id>
+    <indicator-id type="integer">47</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:13:22Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:13:22Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">76</id>
+    <plot-id type="integer">16</plot-id>
+    <indicator-id type="integer">48</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:13:22Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:13:22Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">77</id>
+    <plot-id type="integer">16</plot-id>
+    <indicator-id type="integer">49</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:13:22Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:13:22Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">78</id>
+    <plot-id type="integer">17</plot-id>
+    <indicator-id type="integer">50</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:16:26Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:16:26Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">79</id>
+    <plot-id type="integer">17</plot-id>
+    <indicator-id type="integer">51</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:16:26Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:16:26Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">80</id>
+    <plot-id type="integer">18</plot-id>
+    <indicator-id type="integer">52</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:18:59Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:18:59Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">81</id>
+    <plot-id type="integer">18</plot-id>
+    <indicator-id type="integer">53</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:18:59Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:18:59Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">82</id>
+    <plot-id type="integer">18</plot-id>
+    <indicator-id type="integer">54</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:18:59Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:18:59Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">85</id>
+    <plot-id type="integer">20</plot-id>
+    <indicator-id type="integer">57</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:24:53Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:24:53Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">86</id>
+    <plot-id type="integer">20</plot-id>
+    <indicator-id type="integer">58</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:24:53Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:24:53Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">87</id>
+    <plot-id type="integer">20</plot-id>
+    <indicator-id type="integer">59</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:24:53Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:24:53Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">88</id>
+    <plot-id type="integer">20</plot-id>
+    <indicator-id type="integer">60</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:24:53Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:24:53Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">91</id>
+    <plot-id type="integer">21</plot-id>
+    <indicator-id type="integer">61</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:30:54Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:30:54Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">92</id>
+    <plot-id type="integer">21</plot-id>
+    <indicator-id type="integer">62</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:30:54Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:30:54Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">93</id>
+    <plot-id type="integer">21</plot-id>
+    <indicator-id type="integer">63</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:30:54Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:30:54Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">94</id>
+    <plot-id type="integer">22</plot-id>
+    <indicator-id type="integer">64</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:35:17Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:35:17Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">95</id>
+    <plot-id type="integer">22</plot-id>
+    <indicator-id type="integer">65</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:35:17Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:35:17Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">96</id>
+    <plot-id type="integer">22</plot-id>
+    <indicator-id type="integer">66</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:35:17Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:35:17Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">97</id>
+    <plot-id type="integer">22</plot-id>
+    <indicator-id type="integer">67</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:35:17Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:35:17Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">98</id>
+    <plot-id type="integer">22</plot-id>
+    <indicator-id type="integer">68</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:35:17Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:35:17Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">99</id>
+    <plot-id type="integer">23</plot-id>
+    <indicator-id type="integer">19</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:40:25Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:40:25Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">100</id>
+    <plot-id type="integer">23</plot-id>
+    <indicator-id type="integer">69</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:40:25Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:40:25Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">101</id>
+    <plot-id type="integer">23</plot-id>
+    <indicator-id type="integer">70</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:40:25Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:40:25Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">102</id>
+    <plot-id type="integer">23</plot-id>
+    <indicator-id type="integer">71</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:40:25Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:40:25Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">103</id>
+    <plot-id type="integer">2</plot-id>
+    <indicator-id type="integer">4</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:43:14Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:43:14Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">104</id>
+    <plot-id type="integer">2</plot-id>
+    <indicator-id type="integer">5</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:43:14Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:43:14Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">105</id>
+    <plot-id type="integer">2</plot-id>
+    <indicator-id type="integer">6</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:43:14Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:43:14Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">106</id>
+    <plot-id type="integer">2</plot-id>
+    <indicator-id type="integer">22</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:43:14Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:43:14Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">107</id>
+    <plot-id type="integer">24</plot-id>
+    <indicator-id type="integer">6</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:43:43Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:43:43Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">108</id>
+    <plot-id type="integer">24</plot-id>
+    <indicator-id type="integer">36</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:43:43Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:43:43Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">109</id>
+    <plot-id type="integer">24</plot-id>
+    <indicator-id type="integer">73</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:43:43Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:43:43Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">110</id>
+    <plot-id type="integer">24</plot-id>
+    <indicator-id type="integer">74</indicator-id>
+    <created-at type="dateTime">2016-05-02T03:43:43Z</created-at>
+    <updated-at type="dateTime">2016-05-02T03:43:43Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">111</id>
+    <plot-id type="integer">25</plot-id>
+    <indicator-id type="integer">75</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:36:56Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:36:56Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">112</id>
+    <plot-id type="integer">25</plot-id>
+    <indicator-id type="integer">77</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:36:56Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:36:56Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">113</id>
+    <plot-id type="integer">26</plot-id>
+    <indicator-id type="integer">76</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:37:09Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:37:09Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">114</id>
+    <plot-id type="integer">27</plot-id>
+    <indicator-id type="integer">78</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:39:30Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:39:30Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">115</id>
+    <plot-id type="integer">27</plot-id>
+    <indicator-id type="integer">79</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:39:30Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:39:30Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">116</id>
+    <plot-id type="integer">27</plot-id>
+    <indicator-id type="integer">80</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:39:30Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:39:30Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">117</id>
+    <plot-id type="integer">27</plot-id>
+    <indicator-id type="integer">81</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:39:30Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:39:30Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">118</id>
+    <plot-id type="integer">28</plot-id>
+    <indicator-id type="integer">82</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:44:27Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:44:27Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">119</id>
+    <plot-id type="integer">28</plot-id>
+    <indicator-id type="integer">83</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:44:27Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:44:27Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">120</id>
+    <plot-id type="integer">29</plot-id>
+    <indicator-id type="integer">84</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:44:39Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:44:39Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">121</id>
+    <plot-id type="integer">29</plot-id>
+    <indicator-id type="integer">85</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:44:39Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:44:39Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">122</id>
+    <plot-id type="integer">29</plot-id>
+    <indicator-id type="integer">86</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:44:39Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:44:39Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">123</id>
+    <plot-id type="integer">29</plot-id>
+    <indicator-id type="integer">87</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:44:39Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:44:39Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">124</id>
+    <plot-id type="integer">30</plot-id>
+    <indicator-id type="integer">88</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:49:02Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:49:02Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">125</id>
+    <plot-id type="integer">30</plot-id>
+    <indicator-id type="integer">89</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:49:02Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:49:02Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">126</id>
+    <plot-id type="integer">30</plot-id>
+    <indicator-id type="integer">90</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:49:03Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:49:03Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">127</id>
+    <plot-id type="integer">30</plot-id>
+    <indicator-id type="integer">91</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:49:03Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:49:03Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">128</id>
+    <plot-id type="integer">30</plot-id>
+    <indicator-id type="integer">92</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:49:03Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:49:03Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">129</id>
+    <plot-id type="integer">31</plot-id>
+    <indicator-id type="integer">93</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:51:24Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:51:24Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">130</id>
+    <plot-id type="integer">31</plot-id>
+    <indicator-id type="integer">94</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:51:24Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:51:24Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">131</id>
+    <plot-id type="integer">31</plot-id>
+    <indicator-id type="integer">95</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:51:24Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:51:24Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">132</id>
+    <plot-id type="integer">32</plot-id>
+    <indicator-id type="integer">96</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:54:24Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:54:24Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">133</id>
+    <plot-id type="integer">32</plot-id>
+    <indicator-id type="integer">97</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:54:24Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:54:24Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">134</id>
+    <plot-id type="integer">32</plot-id>
+    <indicator-id type="integer">98</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:54:24Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:54:24Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">135</id>
+    <plot-id type="integer">32</plot-id>
+    <indicator-id type="integer">99</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:54:24Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:54:24Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">136</id>
+    <plot-id type="integer">33</plot-id>
+    <indicator-id type="integer">100</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:59:42Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:59:42Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">137</id>
+    <plot-id type="integer">33</plot-id>
+    <indicator-id type="integer">101</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:59:42Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:59:42Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">138</id>
+    <plot-id type="integer">33</plot-id>
+    <indicator-id type="integer">102</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:59:42Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:59:42Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">139</id>
+    <plot-id type="integer">33</plot-id>
+    <indicator-id type="integer">103</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:59:42Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:59:42Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">140</id>
+    <plot-id type="integer">33</plot-id>
+    <indicator-id type="integer">104</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:59:42Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:59:42Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">141</id>
+    <plot-id type="integer">33</plot-id>
+    <indicator-id type="integer">105</indicator-id>
+    <created-at type="dateTime">2016-05-03T23:59:42Z</created-at>
+    <updated-at type="dateTime">2016-05-03T23:59:42Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">142</id>
+    <plot-id type="integer">34</plot-id>
+    <indicator-id type="integer">106</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:09:58Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:09:58Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">143</id>
+    <plot-id type="integer">34</plot-id>
+    <indicator-id type="integer">107</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:09:58Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:09:58Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">144</id>
+    <plot-id type="integer">35</plot-id>
+    <indicator-id type="integer">108</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:13:01Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:13:01Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">145</id>
+    <plot-id type="integer">35</plot-id>
+    <indicator-id type="integer">109</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:13:02Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:13:02Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">146</id>
+    <plot-id type="integer">35</plot-id>
+    <indicator-id type="integer">110</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:13:02Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:13:02Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">147</id>
+    <plot-id type="integer">36</plot-id>
+    <indicator-id type="integer">111</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:18:31Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:18:31Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">148</id>
+    <plot-id type="integer">36</plot-id>
+    <indicator-id type="integer">112</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:18:31Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:18:31Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">149</id>
+    <plot-id type="integer">36</plot-id>
+    <indicator-id type="integer">113</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:18:31Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:18:31Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">150</id>
+    <plot-id type="integer">36</plot-id>
+    <indicator-id type="integer">114</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:18:32Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:18:32Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">151</id>
+    <plot-id type="integer">37</plot-id>
+    <indicator-id type="integer">115</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:18:44Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:18:44Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">152</id>
+    <plot-id type="integer">37</plot-id>
+    <indicator-id type="integer">116</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:18:44Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:18:44Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">153</id>
+    <plot-id type="integer">37</plot-id>
+    <indicator-id type="integer">117</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:18:44Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:18:44Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">154</id>
+    <plot-id type="integer">38</plot-id>
+    <indicator-id type="integer">118</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:23:42Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:23:42Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">155</id>
+    <plot-id type="integer">39</plot-id>
+    <indicator-id type="integer">119</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:23:55Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:23:55Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">156</id>
+    <plot-id type="integer">39</plot-id>
+    <indicator-id type="integer">120</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:23:55Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:23:55Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">157</id>
+    <plot-id type="integer">40</plot-id>
+    <indicator-id type="integer">121</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:26:32Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:26:32Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">158</id>
+    <plot-id type="integer">40</plot-id>
+    <indicator-id type="integer">122</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:26:32Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:26:32Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">159</id>
+    <plot-id type="integer">40</plot-id>
+    <indicator-id type="integer">123</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:26:32Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:26:32Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">160</id>
+    <plot-id type="integer">41</plot-id>
+    <indicator-id type="integer">124</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:32:42Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:32:42Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">161</id>
+    <plot-id type="integer">41</plot-id>
+    <indicator-id type="integer">125</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:32:42Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:32:42Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">162</id>
+    <plot-id type="integer">41</plot-id>
+    <indicator-id type="integer">126</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:32:42Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:32:42Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">163</id>
+    <plot-id type="integer">42</plot-id>
+    <indicator-id type="integer">127</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:35:15Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:35:15Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">164</id>
+    <plot-id type="integer">42</plot-id>
+    <indicator-id type="integer">128</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:35:16Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:35:16Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">165</id>
+    <plot-id type="integer">42</plot-id>
+    <indicator-id type="integer">129</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:35:16Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:35:16Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">166</id>
+    <plot-id type="integer">42</plot-id>
+    <indicator-id type="integer">130</indicator-id>
+    <created-at type="dateTime">2016-05-04T01:35:16Z</created-at>
+    <updated-at type="dateTime">2016-05-04T01:35:16Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">167</id>
+    <plot-id type="integer">19</plot-id>
+    <indicator-id type="integer">55</indicator-id>
+    <created-at type="dateTime">2016-05-04T21:40:13Z</created-at>
+    <updated-at type="dateTime">2016-05-04T21:40:13Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">168</id>
+    <plot-id type="integer">19</plot-id>
+    <indicator-id type="integer">56</indicator-id>
+    <created-at type="dateTime">2016-05-04T21:40:13Z</created-at>
+    <updated-at type="dateTime">2016-05-04T21:40:13Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">169</id>
+    <plot-id type="integer">43</plot-id>
+    <indicator-id type="integer">131</indicator-id>
+    <created-at type="dateTime">2016-05-04T21:42:53Z</created-at>
+    <updated-at type="dateTime">2016-05-04T21:42:53Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">170</id>
+    <plot-id type="integer">43</plot-id>
+    <indicator-id type="integer">132</indicator-id>
+    <created-at type="dateTime">2016-05-04T21:42:53Z</created-at>
+    <updated-at type="dateTime">2016-05-04T21:42:53Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">171</id>
+    <plot-id type="integer">43</plot-id>
+    <indicator-id type="integer">133</indicator-id>
+    <created-at type="dateTime">2016-05-04T21:42:53Z</created-at>
+    <updated-at type="dateTime">2016-05-04T21:42:53Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">172</id>
+    <plot-id type="integer">43</plot-id>
+    <indicator-id type="integer">134</indicator-id>
+    <created-at type="dateTime">2016-05-04T21:42:53Z</created-at>
+    <updated-at type="dateTime">2016-05-04T21:42:53Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">173</id>
+    <plot-id type="integer">43</plot-id>
+    <indicator-id type="integer">135</indicator-id>
+    <created-at type="dateTime">2016-05-04T21:42:53Z</created-at>
+    <updated-at type="dateTime">2016-05-04T21:42:53Z</updated-at>
+  </series>
+  <series>
+    <id type="integer">174</id>
+    <plot-id type="integer">43</plot-id>
+    <indicator-id type="integer">136</indicator-id>
+    <created-at type="dateTime">2016-05-04T21:42:53Z</created-at>
+    <updated-at type="dateTime">2016-05-04T21:42:53Z</updated-at>
+  </series>
+</series>

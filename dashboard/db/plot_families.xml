@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plot-families type="array">
+  <plot-family>
+    <id type="integer">1</id>
+    <name>DB</name>
+    <refresh-int-mins type="integer">30</refresh-int-mins>
+    <created-at type="dateTime">2015-09-09T03:52:01Z</created-at>
+    <updated-at type="dateTime">2015-09-09T03:52:01Z</updated-at>
+  </plot-family>
+</plot-families>

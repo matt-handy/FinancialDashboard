@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indicators type="array">
+  <indicator>
+    <id type="integer">1</id>
+    <name>SLV</name>
+    <uri>709305</uri>
+    <created-at type="dateTime">2015-09-09T02:00:36Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:07Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">2</id>
+    <name>GLD</name>
+    <uri>704797</uri>
+    <created-at type="dateTime">2015-09-09T22:30:20Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:07Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">3</id>
+    <name>BP</name>
+    <uri>662876</uri>
+    <created-at type="dateTime">2015-09-09T22:33:49Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:07Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">4</id>
+    <name>CVX</name>
+    <uri>667226</uri>
+    <created-at type="dateTime">2015-09-09T22:34:47Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:07Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">5</id>
+    <name>Exxon</name>
+    <uri>663876</uri>
+    <created-at type="dateTime">2015-09-10T01:23:50Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:07Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">6</id>
+    <name>Royal Dutch Shell (NYSE:RDS.A)</name>
+    <uri>699995</uri>
+    <created-at type="dateTime">2015-09-10T01:24:46Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:07Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">7</id>
+    <name>NEM</name>
+    <uri>25624</uri>
+    <created-at type="dateTime">2015-09-10T01:26:17Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:08Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">8</id>
+    <name>FCX</name>
+    <uri>13689</uri>
+    <created-at type="dateTime">2015-09-10T01:26:39Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:08Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">9</id>
+    <name>Energy Select Sector SPDR (XLE)</name>
+    <uri>700195</uri>
+    <created-at type="dateTime">2015-09-10T03:53:46Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:08Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">10</id>
+    <name>iShares S&amp;P 500 (IVV)</name>
+    <uri>700314</uri>
+    <created-at type="dateTime">2015-09-15T02:39:54Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:08Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">11</id>
+    <name>iShares Dow Transport (IYT)</name>
+    <uri>700205</uri>
+    <created-at type="dateTime">2015-09-15T02:40:58Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:08Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">12</id>
+    <name>iShares Russell 2000 (IWM)</name>
+    <uri>700373</uri>
+    <created-at type="dateTime">2015-09-15T02:41:59Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:08Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">13</id>
+    <name>Tesla (TSLA)</name>
+    <uri>12607212</uri>
+    <created-at type="dateTime">2015-09-15T03:46:29Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:08Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">14</id>
+    <name>Real Estate (IYR)</name>
+    <uri>700228</uri>
+    <created-at type="dateTime">2015-10-06T23:23:10Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:08Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">15</id>
+    <name>Facebook</name>
+    <uri>296878244325128</uri>
+    <created-at type="dateTime">2015-11-22T04:37:12Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:08Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">16</id>
+    <name>Google</name>
+    <uri>304466804484872</uri>
+    <created-at type="dateTime">2015-11-22T04:38:28Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:09Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">17</id>
+    <name>Netflix</name>
+    <uri>672501</uri>
+    <created-at type="dateTime">2015-11-22T04:39:07Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:09Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">18</id>
+    <name>Apple</name>
+    <uri>22144</uri>
+    <created-at type="dateTime">2015-11-22T04:39:40Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:09Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">19</id>
+    <name>MCD</name>
+    <uri>22568</uri>
+    <created-at type="dateTime">2016-04-25T02:39:44Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:09Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">20</id>
+    <name>WMT</name>
+    <uri>38230</uri>
+    <created-at type="dateTime">2016-04-25T02:40:11Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:09Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">21</id>
+    <name>Marathon Oil</name>
+    <uri>38982</uri>
+    <created-at type="dateTime">2016-04-28T02:15:42Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:09Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">22</id>
+    <name>Conoco Phillips</name>
+    <uri>1691168</uri>
+    <created-at type="dateTime">2016-04-28T02:16:16Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:09Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">23</id>
+    <name>Chesapeake (CHK)</name>
+    <uri>656337</uri>
+    <created-at type="dateTime">2016-04-28T02:18:36Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:09Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">24</id>
+    <name>Ford (F)</name>
+    <uri>13606</uri>
+    <created-at type="dateTime">2016-04-28T02:22:51Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:10Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">25</id>
+    <name>Honda (HMC)</name>
+    <uri>17412</uri>
+    <created-at type="dateTime">2016-04-28T02:23:16Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:10Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">26</id>
+    <name>Toyota (TM)</name>
+    <uri>655880</uri>
+    <created-at type="dateTime">2016-04-28T02:23:44Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:10Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">27</id>
+    <name>General Motors (GM)</name>
+    <uri>14676476</uri>
+    <created-at type="dateTime">2016-04-28T02:24:13Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:10Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">28</id>
+    <name>Teck (TCK)</name>
+    <uri>550720</uri>
+    <created-at type="dateTime">2016-04-28T02:28:34Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:10Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">29</id>
+    <name>Barrick (ABX)</name>
+    <uri>668912</uri>
+    <created-at type="dateTime">2016-04-28T02:29:07Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:10Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">30</id>
+    <name>Yamana (AUY)</name>
+    <uri>700562</uri>
+    <created-at type="dateTime">2016-04-28T02:29:44Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:10Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">31</id>
+    <name>Kinross Gold (KCG)</name>
+    <uri>463877</uri>
+    <created-at type="dateTime">2016-04-28T02:30:27Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:10Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">32</id>
+    <name>Conagra (CAG)</name>
+    <uri>8548</uri>
+    <created-at type="dateTime">2016-04-28T02:33:34Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:11Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">33</id>
+    <name>Hormel (HRL)</name>
+    <uri>17456</uri>
+    <created-at type="dateTime">2016-04-28T02:34:09Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:11Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">34</id>
+    <name>McCormick (MKC.V)</name>
+    <uri>8636722</uri>
+    <created-at type="dateTime">2016-04-28T02:35:10Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:11Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">36</id>
+    <name>Marathon Petro (MPC)</name>
+    <uri>8994227</uri>
+    <created-at type="dateTime">2016-04-30T02:05:59Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:11Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">37</id>
+    <name>Verizon</name>
+    <uri>664887</uri>
+    <created-at type="dateTime">2016-04-30T02:06:41Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:11Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">38</id>
+    <name>AT&amp;T</name>
+    <uri>33312</uri>
+    <created-at type="dateTime">2016-04-30T02:07:01Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:11Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">39</id>
+    <name>Kraft-Heinz (KHC)</name>
+    <uri>173646880480800</uri>
+    <created-at type="dateTime">2016-05-02T03:04:45Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:11Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">40</id>
+    <name>Kellogg (K)</name>
+    <uri>20562</uri>
+    <created-at type="dateTime">2016-05-02T03:05:22Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:12Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">41</id>
+    <name>General Mills (GIS)</name>
+    <uri>14183</uri>
+    <created-at type="dateTime">2016-05-02T03:05:53Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:12Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">42</id>
+    <name>Campbells (CPB)</name>
+    <uri>5433</uri>
+    <created-at type="dateTime">2016-05-02T03:06:20Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:12Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">43</id>
+    <name>Tyson (TSN)</name>
+    <uri>591488</uri>
+    <created-at type="dateTime">2016-05-02T03:06:44Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:12Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">44</id>
+    <name>Hershey (HSY)</name>
+    <uri>17043</uri>
+    <created-at type="dateTime">2016-05-02T03:07:18Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:12Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">45</id>
+    <name>Costco (COST)</name>
+    <uri>656865</uri>
+    <created-at type="dateTime">2016-05-02T03:10:25Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:12Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">46</id>
+    <name>American Airlines (AAL)</name>
+    <uri>467497122098107</uri>
+    <created-at type="dateTime">2016-05-02T03:12:02Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:12Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">47</id>
+    <name>United (UAL)</name>
+    <uri>36998</uri>
+    <created-at type="dateTime">2016-05-02T03:12:22Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:12Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">48</id>
+    <name>Delta (DAL)</name>
+    <uri>9617</uri>
+    <created-at type="dateTime">2016-05-02T03:12:44Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:13Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">49</id>
+    <name>Southwest (LUV)</name>
+    <uri>33287</uri>
+    <created-at type="dateTime">2016-05-02T03:13:05Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:13Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">50</id>
+    <name>Microsoft (MSFT)</name>
+    <uri>358464</uri>
+    <created-at type="dateTime">2016-05-02T03:15:46Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:13Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">51</id>
+    <name>Red Hat (RHT)</name>
+    <uri>663462</uri>
+    <created-at type="dateTime">2016-05-02T03:16:09Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:13Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">52</id>
+    <name>Dow Chemical (DOW)</name>
+    <uri>665819</uri>
+    <created-at type="dateTime">2016-05-02T03:17:53Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:13Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">53</id>
+    <name>Dupont (DD)</name>
+    <uri>10261</uri>
+    <created-at type="dateTime">2016-05-02T03:18:18Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:13Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">54</id>
+    <name>Eastman Chemical (EMN)</name>
+    <uri>657015</uri>
+    <created-at type="dateTime">2016-05-02T03:18:42Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:13Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">55</id>
+    <name>Transocean (RIG)</name>
+    <uri>663968</uri>
+    <created-at type="dateTime">2016-05-02T03:21:22Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:14Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">56</id>
+    <name>Diamond Offshore Drilling (DO)</name>
+    <uri>658040</uri>
+    <created-at type="dateTime">2016-05-02T03:21:56Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:14Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">57</id>
+    <name>Wyndham (WYN)</name>
+    <uri>707525</uri>
+    <created-at type="dateTime">2016-05-02T03:23:03Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:14Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">58</id>
+    <name>Starwood Hotels (HOT)</name>
+    <uri>658446</uri>
+    <created-at type="dateTime">2016-05-02T03:23:27Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:14Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">59</id>
+    <name>Las Vegas Sands (LVS)</name>
+    <uri>696965</uri>
+    <created-at type="dateTime">2016-05-02T03:23:58Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:14Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">60</id>
+    <name>MGM Resorts (MGM)</name>
+    <uri>21913</uri>
+    <created-at type="dateTime">2016-05-02T03:24:29Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:14Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">61</id>
+    <name>Coca-Cola (KO)</name>
+    <uri>6550</uri>
+    <created-at type="dateTime">2016-05-02T03:29:02Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:14Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">62</id>
+    <name>Pepsi (PEP)</name>
+    <uri>27011</uri>
+    <created-at type="dateTime">2016-05-02T03:29:28Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:14Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">63</id>
+    <name>Dr Pepper Snapple (DPS)</name>
+    <uri>720684</uri>
+    <created-at type="dateTime">2016-05-02T03:30:10Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:14Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">64</id>
+    <name>Intel (INTC)</name>
+    <uri>284784</uri>
+    <created-at type="dateTime">2016-05-02T03:32:47Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:15Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">65</id>
+    <name>Xilinx (XLNX)</name>
+    <uri>623955</uri>
+    <created-at type="dateTime">2016-05-02T03:33:14Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:15Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">66</id>
+    <name>Texas Instruments (TXN)</name>
+    <uri>34649</uri>
+    <created-at type="dateTime">2016-05-02T03:33:50Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:15Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">67</id>
+    <name>NVIDIA (NVDA)</name>
+    <uri>662925</uri>
+    <created-at type="dateTime">2016-05-02T03:34:22Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:15Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">68</id>
+    <name>Analog Devices (ADI)</name>
+    <uri>1433</uri>
+    <created-at type="dateTime">2016-05-02T03:34:53Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:15Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">69</id>
+    <name>Darden Restaurants (DRI)</name>
+    <uri>657727</uri>
+    <created-at type="dateTime">2016-05-02T03:38:30Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:15Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">70</id>
+    <name>Starbucks (SBUX)</name>
+    <uri>655693</uri>
+    <created-at type="dateTime">2016-05-02T03:39:06Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:16Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">71</id>
+    <name>Yum Brands (YUM)</name>
+    <uri>660822</uri>
+    <created-at type="dateTime">2016-05-02T03:39:37Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:16Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">72</id>
+    <name>Chipotle (CMG)</name>
+    <uri>701829</uri>
+    <created-at type="dateTime">2016-05-02T03:39:59Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:16Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">73</id>
+    <name>Hess Corp (HES)</name>
+    <uri>841</uri>
+    <created-at type="dateTime">2016-05-02T03:42:08Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:16Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">74</id>
+    <name>Murphy Oil Corporation (MUR)</name>
+    <uri>24913</uri>
+    <created-at type="dateTime">2016-05-02T03:42:31Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:16Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">75</id>
+    <name>Merck (MRK)</name>
+    <uri>22808</uri>
+    <created-at type="dateTime">2016-05-03T23:35:33Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:16Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">76</id>
+    <name>Allergan (AGN)</name>
+    <uri>389962138198821</uri>
+    <created-at type="dateTime">2016-05-03T23:35:57Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:17Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">77</id>
+    <name>Pfizer (PFE)</name>
+    <uri>664730</uri>
+    <created-at type="dateTime">2016-05-03T23:36:20Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:17Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">78</id>
+    <name>CSX</name>
+    <uri>5232</uri>
+    <created-at type="dateTime">2016-05-03T23:38:15Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:17Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">79</id>
+    <name>Kansas City Southern (KSU)</name>
+    <uri>20484</uri>
+    <created-at type="dateTime">2016-05-03T23:38:36Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:17Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">80</id>
+    <name>Norfolk Southern (NSC)</name>
+    <uri>25702</uri>
+    <created-at type="dateTime">2016-05-03T23:38:56Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:17Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">81</id>
+    <name>Union Pacific (UNP)</name>
+    <uri>37249</uri>
+    <created-at type="dateTime">2016-05-03T23:39:18Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:18Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">82</id>
+    <name>GE</name>
+    <uri>14135</uri>
+    <created-at type="dateTime">2016-05-03T23:42:01Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:18Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">83</id>
+    <name>Republic Services (RSG)</name>
+    <uri>662329</uri>
+    <created-at type="dateTime">2016-05-03T23:42:25Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:18Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">84</id>
+    <name>Rockwell (ROK)</name>
+    <uri>30293</uri>
+    <created-at type="dateTime">2016-05-03T23:42:46Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:18Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">85</id>
+    <name>United Technologies (UTX)</name>
+    <uri>37523</uri>
+    <created-at type="dateTime">2016-05-03T23:43:28Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:18Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">86</id>
+    <name>Honeywell (HON)</name>
+    <uri>666236</uri>
+    <created-at type="dateTime">2016-05-03T23:43:46Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:19Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">87</id>
+    <name>MMM</name>
+    <uri>24599</uri>
+    <created-at type="dateTime">2016-05-03T23:44:02Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:19Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">88</id>
+    <name>Boeing (BA)</name>
+    <uri>661224</uri>
+    <created-at type="dateTime">2016-05-03T23:47:39Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:19Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">89</id>
+    <name>FLIR</name>
+    <uri>656819</uri>
+    <created-at type="dateTime">2016-05-03T23:47:55Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:19Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">90</id>
+    <name>GD</name>
+    <uri>14131</uri>
+    <created-at type="dateTime">2016-05-03T23:48:10Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:19Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">91</id>
+    <name>LMT</name>
+    <uri>21553</uri>
+    <created-at type="dateTime">2016-05-03T23:48:26Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:19Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">92</id>
+    <name>Northrop Grumman (NOC)</name>
+    <uri>25890</uri>
+    <created-at type="dateTime">2016-05-03T23:48:47Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:19Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">93</id>
+    <name>D.R. Horton (DHI)</name>
+    <uri>655791</uri>
+    <created-at type="dateTime">2016-05-03T23:50:27Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:19Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">94</id>
+    <name>Lennar (LEN)</name>
+    <uri>21344</uri>
+    <created-at type="dateTime">2016-05-03T23:50:46Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:20Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">95</id>
+    <name>PulteGroup (PHM)</name>
+    <uri>26425</uri>
+    <created-at type="dateTime">2016-05-03T23:51:04Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:20Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">96</id>
+    <name>Amgen (AMGN)</name>
+    <uri>18784</uri>
+    <created-at type="dateTime">2016-05-03T23:52:41Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:20Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">97</id>
+    <name>Celgene (CELG)</name>
+    <uri>88069</uri>
+    <created-at type="dateTime">2016-05-03T23:53:03Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:20Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">98</id>
+    <name>Gilead Sciences (GILD)</name>
+    <uri>656627</uri>
+    <created-at type="dateTime">2016-05-03T23:53:46Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:20Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">99</id>
+    <name>Vertex (NASDAQ:VRTX)</name>
+    <uri>667239</uri>
+    <created-at type="dateTime">2016-05-03T23:54:07Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:20Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">100</id>
+    <name>EXC</name>
+    <uri>28724</uri>
+    <created-at type="dateTime">2016-05-03T23:57:22Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:20Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">101</id>
+    <name>AES</name>
+    <uri>656272</uri>
+    <created-at type="dateTime">2016-05-03T23:57:37Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:20Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">102</id>
+    <name>American Electric Power (AEP)</name>
+    <uri>1025</uri>
+    <created-at type="dateTime">2016-05-03T23:57:59Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:21Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">103</id>
+    <name>Duke Energy (DUK)</name>
+    <uri>10135</uri>
+    <created-at type="dateTime">2016-05-03T23:58:18Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:21Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">104</id>
+    <name>Consolidated Edison (ED)</name>
+    <uri>8600</uri>
+    <created-at type="dateTime">2016-05-03T23:59:04Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:21Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">105</id>
+    <name>PG&amp;E Corporation (PGC)</name>
+    <uri>26486</uri>
+    <created-at type="dateTime">2016-05-03T23:59:27Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:21Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">106</id>
+    <name>Cisco (CSCO)</name>
+    <uri>99624</uri>
+    <created-at type="dateTime">2016-05-04T01:08:55Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:21Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">107</id>
+    <name>Juniper Networks</name>
+    <uri>663269</uri>
+    <created-at type="dateTime">2016-05-04T01:09:22Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:21Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">108</id>
+    <name>CAT</name>
+    <uri>5736</uri>
+    <created-at type="dateTime">2016-05-04T01:11:27Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:21Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">109</id>
+    <name>Deere (DE)</name>
+    <uri>9573</uri>
+    <created-at type="dateTime">2016-05-04T01:11:54Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:21Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">110</id>
+    <name>PACCAR (PCAR)</name>
+    <uri>423184</uri>
+    <created-at type="dateTime">2016-05-04T01:12:38Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:22Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">111</id>
+    <name>Bank of America (BAC)</name>
+    <uri>662744</uri>
+    <created-at type="dateTime">2016-05-04T01:15:58Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:22Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">112</id>
+    <name>Citi (C)</name>
+    <uri>662713</uri>
+    <created-at type="dateTime">2016-05-04T01:16:16Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:22Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">113</id>
+    <name>Wells Fargo (WFC)</name>
+    <uri>25913</uri>
+    <created-at type="dateTime">2016-05-04T01:16:42Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:22Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">114</id>
+    <name>BBT</name>
+    <uri>667136</uri>
+    <created-at type="dateTime">2016-05-04T01:17:00Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:22Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">115</id>
+    <name>Capital One (COF)</name>
+    <uri>657787</uri>
+    <created-at type="dateTime">2016-05-04T01:17:22Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:22Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">116</id>
+    <name>JPMorgan Chase (JPM)</name>
+    <uri>665639</uri>
+    <created-at type="dateTime">2016-05-04T01:17:43Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:23Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">117</id>
+    <name>M&amp;T Bank (MTB)</name>
+    <uri>210074</uri>
+    <created-at type="dateTime">2016-05-04T01:18:04Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:23Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">118</id>
+    <name>Alcoa (AA)</name>
+    <uri>803</uri>
+    <created-at type="dateTime">2016-05-04T01:22:51Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:23Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">119</id>
+    <name>Nucor (NUE)</name>
+    <uri>25938</uri>
+    <created-at type="dateTime">2016-05-04T01:23:10Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:23Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">120</id>
+    <name>US Steel (X)</name>
+    <uri>38983</uri>
+    <created-at type="dateTime">2016-05-04T01:23:27Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:23Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">121</id>
+    <name>Monsanto (MON)</name>
+    <uri>665325</uri>
+    <created-at type="dateTime">2016-05-04T01:25:37Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:23Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">122</id>
+    <name>CF Industries (CF)</name>
+    <uri>700157</uri>
+    <created-at type="dateTime">2016-05-04T01:25:57Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:23Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">123</id>
+    <name>Mosaic Co (MOS)</name>
+    <uri>696558</uri>
+    <created-at type="dateTime">2016-05-04T01:26:17Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:23Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">124</id>
+    <name>Abbott Laboratories (ABT)</name>
+    <uri>145</uri>
+    <created-at type="dateTime">2016-05-04T01:30:58Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:23Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">125</id>
+    <name>Agilent Technologies (A)</name>
+    <uri>663860</uri>
+    <created-at type="dateTime">2016-05-04T01:31:23Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:24Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">126</id>
+    <name>Boston Scientific (BSX)</name>
+    <uri>655636</uri>
+    <created-at type="dateTime">2016-05-04T01:31:48Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:24Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">127</id>
+    <name>JNJ</name>
+    <uri>666601</uri>
+    <created-at type="dateTime">2016-05-04T01:33:11Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:24Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">128</id>
+    <name>C R Bard Inc (BCR)</name>
+    <uri>2420</uri>
+    <created-at type="dateTime">2016-05-04T01:33:43Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:24Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">129</id>
+    <name>Thermo Fisher Scientific (TMO)</name>
+    <uri>34697</uri>
+    <created-at type="dateTime">2016-05-04T01:34:24Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:24Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">130</id>
+    <name>Varian Medical Systems (VAR)</name>
+    <uri>37937</uri>
+    <created-at type="dateTime">2016-05-04T01:34:49Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:24Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">131</id>
+    <name>Global X Silver Miners (NYSEARCA:SIL)</name>
+    <uri>4244524</uri>
+    <created-at type="dateTime">2016-05-04T21:40:50Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:24Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">132</id>
+    <name>Silver Wheaton (SLW)</name>
+    <uri>702184</uri>
+    <created-at type="dateTime">2016-05-04T21:41:13Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:24Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">133</id>
+    <name>SLM </name>
+    <uri>30761</uri>
+    <created-at type="dateTime">2016-05-04T21:41:28Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:25Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">134</id>
+    <name>First Majestic Silver (AG)</name>
+    <uri>10846741</uri>
+    <created-at type="dateTime">2016-05-04T21:41:46Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:25Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">135</id>
+    <name>Silver Standard Resources (SSRI)</name>
+    <uri>664512</uri>
+    <created-at type="dateTime">2016-05-04T21:42:10Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:25Z</updated-at>
+  </indicator>
+  <indicator>
+    <id type="integer">136</id>
+    <name>Hecla Mining (HL)</name>
+    <uri>16961</uri>
+    <created-at type="dateTime">2016-05-04T21:42:34Z</created-at>
+    <updated-at type="dateTime">2016-05-07T02:04:25Z</updated-at>
+  </indicator>
+</indicators>
