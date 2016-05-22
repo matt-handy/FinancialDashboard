@@ -1,0 +1,50 @@
+<script type="text/javascript">
+$(function () {
+    $('#container').highcharts({
+        title: {
+            text: '<%= @indicator.name %>',
+            x: -20 //center
+        },
+            xAxis: {
+                type: 'datetime'
+            },
+            yAxis: {
+                title: {
+                    text: 'Value'
+                }
+            },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            borderWidth: 0
+        },
+        series: [
+		{
+        name: '<%= @indicator.name %>', 
+        data: [
+      <% @indicator.datapoints.order(:day).each{ |dp| %>
+	    [Date.UTC(<%= dp.day.year %>,<%= dp.day.mon - 1 %>,<%= dp.day.mday %>),<%= dp.value %>],
+	  <% } %>
+        ]
+      }
+    <% MovingAverage.all.each{ |ma| %>
+      
+      ,
+	  {
+        name: '<%= ma.name %>', 
+        data: [
+      <% @indicator.average_samples.where(:moving_average_id => ma.id).order(:stamp).each{ |dp| %>
+	    [Date.UTC(<%= dp.stamp.year %>,<%= dp.stamp.mon - 1 %>,<%= dp.stamp.mday %>),<%= dp.value %>],
+	  <% } %>
+        ]
+      }
+    <% } %>
+        ]
+    });
+});
+</script>
+
+<div id="container" style="width: 800px; height: 400px; margin: 0 auto"></div>
+Link to Google Finance:
+<a href="https://www.google.com/finance?cid=<%= @indicator.uri %>"><%= @indicator.name %></a>

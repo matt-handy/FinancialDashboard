@@ -34,9 +34,11 @@ namespace :indicators do
 	
 	Plot.all.each { |p| p.regenerate_series }
 	PriceDeltaCategory.regenerate_all
+	MovingAverage.update_all_indicators
   end
   
   task reload: :environment do
+
     Indicator.all.each { |i|
       i.datapoints.destroy_all
       #url = URI.parse(i.uri)
@@ -61,6 +63,8 @@ namespace :indicators do
 	
 	Plot.all.each { |p| p.regenerate_series }
 	PriceDeltaCategory.regenerate_all
+
+    MovingAverage.build_all_indicators	
   end
   
   task backup: :environment do
@@ -72,7 +76,8 @@ namespace :indicators do
   end
   
   task rebuild: :environment do
-=begin
+    MovingAverage.define_all
+	
 	PriceDeltaCategory.destroy_all
     #40% in 12 weeks
 	catThreeMonths = PriceDeltaCategory.new(:length => 60, :title => "12 Weeks, 40%", :delta => 40)
@@ -87,7 +92,7 @@ namespace :indicators do
 	catOneMonths.save
 	
 	PriceDeltaCategory.regenerate_all
-=end	
+	
     PlotFamily.d_initialize("db/plot_families.xml")
 	Indicator.d_initialize("db/indicators.xml")
 	Plot.d_initialize("db/plots.xml")

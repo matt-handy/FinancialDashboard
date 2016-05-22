@@ -11,7 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160509030156) do
+ActiveRecord::Schema.define(version: 20160518015440) do
+
+  create_table "average_samples", force: :cascade do |t|
+    t.integer  "moving_average_id"
+    t.float    "value"
+    t.date     "stamp"
+    t.integer  "indicator_id"
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
+  end
 
   create_table "datapoints", force: :cascade do |t|
     t.date     "day"
@@ -36,6 +45,13 @@ ActiveRecord::Schema.define(version: 20160509030156) do
     t.string   "uri"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "moving_averages", force: :cascade do |t|
+    t.integer  "period"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string   "name"
   end
 
   create_table "plot_families", force: :cascade do |t|
@@ -71,6 +87,14 @@ ActiveRecord::Schema.define(version: 20160509030156) do
   create_table "series", force: :cascade do |t|
     t.integer  "plot_id"
     t.integer  "indicator_id"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+  end
+
+  create_table "technical_events", force: :cascade do |t|
+    t.string   "type"
+    t.integer  "indicator_id"
+    t.date     "stamp"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
   end
