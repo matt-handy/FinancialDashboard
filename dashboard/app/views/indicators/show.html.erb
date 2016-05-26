@@ -7,6 +7,6 @@
 <strong>URI: </strong>
 <%= @indicator.uri %>
 </p>
-<% @indicator.datapoints.each { |dp| %>
+<% @indicator.datapoints.order(day: :desc).each { |dp| %>
 <%= dp.day %>:<%= dp.value %><br>
 <% } %>

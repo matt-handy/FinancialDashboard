@@ -13,13 +13,15 @@ class MovingAverage < ActiveRecord::Base
   def self.update_all_indicators
 
     fiftyDay = MovingAverage.where(name: "50 Day SMA").first
-	fiftyDaySamples = []
 	twoHDay = MovingAverage.where(name: "200 Day SMA").first
-	twoHDaySamples = []
 	twoTDay = MovingAverage.where(name: "2000 Day SMA").first
-	twoTDaySamples = []
+	
 	
 	Indicator.all.each { |i|
+	  fiftyDaySamples = []
+	  twoHDaySamples = []
+	  twoTDaySamples = []
+	  
 	  puts "Processing: #{i.name}"
 	  i.datapoints.order(day: :desc).each{ |dp|
 	  
@@ -53,16 +55,16 @@ class MovingAverage < ActiveRecord::Base
   
   def self.build_all_indicators
     fiftyDay = MovingAverage.where(name: "50 Day SMA").first
-	fiftyDaySamples = []
 	twoHDay = MovingAverage.where(name: "200 Day SMA").first
-	twoHDaySamples = []
 	twoTDay = MovingAverage.where(name: "2000 Day SMA").first
-	twoTDaySamples = []
 	
     Indicator.all.each { |i|
+	  fiftyDaySamples = []
+	  twoHDaySamples = []
+	  twoTDaySamples = []
 	  puts "Processing: #{i.name}"
 	  i.average_samples.destroy_all
-	  i.datapoints.order(:day).each{ |dp|
+	  i.datapoints.order(day: :asc).each{ |dp|
 	    fiftyDaySamples << dp.value
 		while fiftyDaySamples.size > fiftyDay.period
 		  fiftyDaySamples.shift

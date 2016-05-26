@@ -17,6 +17,12 @@
 <% } %>
 <br>
 
+<h3>Ye technical indicators</h3>
+<% TechnicalEvent.all.order(:stamp).each{ |te| %>
+  <%= te.name %> at <%= te.stamp %> for <a href='indicators/<%= te.indicator_id %>'><%= te.indicator.name %></a>; 
+<% } %>
+<br>
+
 <% if @plot_family %>
 <%= render "shared/plot_family" %>
 <% end %>

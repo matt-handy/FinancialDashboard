@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160518015440) do
+ActiveRecord::Schema.define(version: 20160522133403) do
 
   create_table "average_samples", force: :cascade do |t|
     t.integer  "moving_average_id"
@@ -92,11 +92,11 @@ ActiveRecord::Schema.define(version: 20160518015440) do
   end
 
   create_table "technical_events", force: :cascade do |t|
-    t.string   "type"
     t.integer  "indicator_id"
     t.date     "stamp"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
+    t.string   "name"
   end
 
 end
