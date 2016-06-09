@@ -35,6 +35,7 @@ namespace :indicators do
 	Plot.all.each { |p| p.regenerate_series }
 	PriceDeltaCategory.regenerate_all
 	MovingAverage.update_all_indicators
+	TechnicalEvent.generate_technicals
   end
   
   task reload: :environment do
